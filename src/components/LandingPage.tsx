@@ -45,10 +45,10 @@ const LandingPage = () => {
               href="https://t.me/antiaviator"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-xl font-bold px-12 py-6 rounded-2xl animate-glow inline-flex items-center justify-center"
+              className="btn-primary text-xl font-bold px-12 py-6 rounded-2xl animate-glow inline-flex items-center justify-center animate-blink"
             >
               <Zap className="w-6 h-6 mr-2" />
-              [ ACESSAR AGORA 🏠 ]
+              [ ACESSAR AGORA ]
             </a>
           </div>
 
