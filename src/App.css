@@ -42,10 +42,19 @@
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 16px 8px #ff0000aa;
+    background-color: #ff3b3b;
+  }
+  50% {
+    opacity: 0.5;
+    box-shadow: 0 0 32px 16px #ff0000ee;
+    background-color: #fff;
+  }
 }
 
 .animate-blink {
-  animation: blink 1s infinite;
+  animation: blink 0.6s infinite;
+  transition: background-color 0.2s, box-shadow 0.2s;
 }
